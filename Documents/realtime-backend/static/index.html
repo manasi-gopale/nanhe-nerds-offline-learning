@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h3>Realtime Chat Test</h3>
+    <button id="connectBtn">Connect</button>
+    <input id="msgInput" placeholder="Type message..." />
+    <button id="sendBtn">Send</button>
+    <div id="chat"></div>
+
+    <script>
+      let ws = null;
+
+      document.getElementById("connectBtn").onclick = () => {
+        ws = new WebSocket("ws://localhost:8000/ws/session/test-session-1");
+        ws.onmessage = (event) => {
+          const div = document.getElementById("chat");
+          div.innerHTML += "<p>" + event.data + "</p>";
+        };
+      };
+
+      document.getElementById("sendBtn").onclick = () => {
+        const text = document.getElementById("msgInput").value;
+        ws.send(text);
+      };
+    </script>
+  </body>
+</html>
