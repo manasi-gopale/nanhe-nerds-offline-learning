@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Counting 1–10",
+    "subject": "Math",
+    "content": "Learn numbers from 1 to 10 with apples and stars."
+  },
+  {
+    "id": 2,
+    "title": "Basic Shapes",
+    "subject": "Math",
+    "content": "Circle, square, triangle – find them around you!"
+  }
+]
