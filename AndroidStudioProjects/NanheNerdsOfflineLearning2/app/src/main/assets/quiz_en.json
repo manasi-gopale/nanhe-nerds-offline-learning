@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "lessonId": 1,
+    "question": "How many apples are there: 🍎🍎🍎?",
+    "options": ["2", "3", "4", "5"],
+    "correctIndex": 1
+  },
+  {
+    "id": 2,
+    "lessonId": 2,
+    "question": "Which of these is a circle?",
+    "options": ["🔺", "⬜", "⚪", "⬛"],
+    "correctIndex": 2
+  }
+]

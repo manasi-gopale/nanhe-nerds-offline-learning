@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "standard": 3,
+    "chapter": 1,
+    "chapterName": "Numbers 1-100",
+    "subject": "Mathematics",
+    "language": "English",
+    "lessonId": 1,
+    "question": "Count the objects. How many stars?",
+    "options": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "explanation": "Count from left to right: 1, 2, 3, 4, 5",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "standard": 3,
+    "chapter": 1,
+    "chapterName": "Numbers 1-100",
+    "subject": "Mathematics",
+    "language": "English",
+    "lessonId": 1,
+    "question": "Which number comes after 15?",
+    "options": ["14", "16", "17", "13"],
+    "correctIndex": 1,
+    "explanation": "Counting sequence: 14, 15, 16",
+    "difficulty": "easy"
+  }
+]
