@@ -1,0 +1,13 @@
+{
+    "welcome": "Welcome",
+    "login": "Login",
+    "register": "Register",
+    "home": "Home",
+    "subjects": "Subjects",
+    "quiz": "Quiz",
+    "lesson": "Lesson",
+    "correct": "Correct!",
+    "wrong": "Wrong!",
+    "loading": "Loading...",
+    "greeting": "Wish you peace and joy today"
+}

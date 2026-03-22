@@ -9,11 +9,13 @@ import Quiz from './pages/Quiz'
 import Lesson from './pages/Lesson'
 import Profile from './pages/Profile'
 import TeacherDashboard from './pages/TeacherDashboard'
+import FloatingLanguage from './components/FloatingLanguage'
 
 function App() {
   return (
     <AuthProvider>
       <BrowserRouter>
+        <FloatingLanguage />
         <Routes>
           <Route path="/" element={<SplashScreen />} />
           <Route path="/landing" element={<Landing />} />
